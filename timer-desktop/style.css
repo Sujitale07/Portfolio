@@ -1,0 +1,62 @@
+body{
+  
+    overflow: hidden;
+    background-color: rgb(7, 11, 10);
+    color: cyan;
+}
+
+.container{
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: ;
+}
+
+.time p{
+    font-size: 60px;
+    font-family: Outfit;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid cyan;
+    color: white;
+    font-size: 40px;
+}
+
+button{
+    background-color: cyan;
+    padding: 15px 30px;
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+p#tasks{
+    font-size: 20px;    
+}
+
+.task-main{
+    color: white;
+    width: 1170px;
+    background-color: rgb(0, 106, 198);
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i{
+    transform: rotate(45deg);
+    font-size: 20px;
+}
+
